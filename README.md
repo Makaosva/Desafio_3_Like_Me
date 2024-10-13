@@ -11,10 +11,11 @@ Para iniciar con el desarrollo de este desafío, ocupa las siguientes instruccio
 2. CREATE TABLE posts (id SERIAL, titulo VARCHAR(25), img VARCHAR(1000), descripcion VARCHAR(255), likes INT);
 
 Para el Post usar el siguiente formato de ejemplo en el body:
-{
+
+>{
     "titulo": "Superman",
-    "img": "https://media.revistagq.com/photos/635a2ea4c39eb51840f8afe9/3:2/w_1620,h_1080,c_limit/henry-cavill-superman-futuro-peliculas.jpeg",
-    "descripcion": "Sigue tu propia #like #faf"
+   "img": "https://media.revistagq.com/photos/635a2ea4c39eb51840f8afe9/3:2/w_1620,h_1080,c_limit/henry-cavill-superman-futuro-peliculas.jpeg",
+   "descripcion": "Sigue tu propia #like #faf"
 }
 
 ---
