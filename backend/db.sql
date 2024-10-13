@@ -1,0 +1,8 @@
+-- crear database
+CREATE DATABASE likeme;
+
+-- ingresar a la database
+\c likeme;
+
+-- crear table
+CREATE TABLE posts (id SERIAL, titulo VARCHAR(25), img VARCHAR(1000), descripcion VARCHAR(255), likes INT);
